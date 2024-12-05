@@ -24,4 +24,18 @@ export const AuthProvider = ({children}) => {
         }
     })
 
+    return (
+        <AuthContext.Provider
+        value={{
+            isAuthenticated,
+            setIsAuthenticated,
+            token,
+            setToken,
+            username,
+            setUsername
+        }}
+        >
+            {children} {/* Render children components */}
+        </AuthContext.Provider>
+    )
 }

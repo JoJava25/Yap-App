@@ -1,4 +1,5 @@
 import React from "react";
+import { AuthProvider } from "./components/AuthContext";
 //additional imports
 
 function App() {
