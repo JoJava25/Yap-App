@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const ChatRoomList = ({rooms, joinRoom}) => {
     return (
@@ -17,3 +17,5 @@ const ChatRoomList = ({rooms, joinRoom}) => {
         </div>
     )
 }
+
+export default ChatRoomList
