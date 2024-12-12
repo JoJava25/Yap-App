@@ -1,6 +1,6 @@
 import React from "react";
 import { AuthProvider } from "./components/AuthContext";
-//additional imports
+import AppContent from './AppContent'
 
 function App() {
   return (
